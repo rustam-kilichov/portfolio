@@ -3,116 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-
-    <!-- SEO Meta Tags -->
-    <meta property="og:title" content="Rustam Kilichov - Frontend Developer" />
     <meta
-      property="og:description"
-      content="Junior Frontend Developer showcasing projects, work experience and education."
+      name="description"
+      content="Frontend Developer Portfolio showcasing projects, work experience, and education."
     />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://mywebsite.com/portfolio" />
     <meta
-      property="og:image"
-      content="https://mywebsite.com/images/profile.jpg"
+      name="keywords"
+      content="Frontend Developer, HTML Portfolio, Projects, Contact, Articles"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    <meta name="author" content="Rustam Kilichov" />
+    <title>Frontend Developer - Homepage</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container">
-        <a class="navbar-brand p-0" href="/">
-          <img src="RK.png" alt="logo" width="60" />Rustam Kilichov</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="articles.html">Articles</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacts.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container my-5">
-      <h1 style="text-align: center">Frontend Developer</h1>
-      <div class="row row-cols-1 row cols-md-2 row-cols-lg-3">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Projects</h4>
-              <p class="card-text">
-                Resume <br />
-                Portfolio
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Work experience</h4>
-              <p class="card-text">
-                roadmap.sh <br />
-
-                Solved all the frontend projects
-              </p>
-              <a href="https://roadmap.sh/u/rustam21" target="_blank"
-                >Visit my profile</a
-              >
-              <hr />
-              <h4 class="card-title">OpenSource work</h4>
-              <p>
-                Contributed to 50 opensource projects. Made my own projects with
-                200 GitHub Stars.
-              </p>
-              <a href="https://github.com/rustam-kilichov" target="_blank"
-                >Visit my GitHub profile</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Education</h4>
-              <p class="card-text">
-                Portfolio written in HTML and also used several CSS styles.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Rustam Kilichov</h1>
+      <h2>Frontend Developer</h2>
+      <p>HTML-only with proper layout, no styling</p>
+    </header>
+    <main>
+      <section>
+        <h3>Work Experience</h3>
+        <article>
+          <h4>roadmap.sh</h4>
+          <p>Solved all the frontend projects</p>
+          <a href="https://roadmap.sh/u/rustam21" target="_blank"
+            >Visit my Profile</a
+          >
+        </article>
+        <article>
+          <h4>Open Source Work</h4>
+          <p>
+            Contributed to 50 open source projects. Made my own projects with
+            200 GitHub Stars.
+          </p>
+          <a href="https://github.com/rustam-kilichov" target="_blank"
+            >Visit my GitHub Profile</a
+          >
+        </article>
+      </section>
+      <section>
+        <h3>Education</h3>
+        <p>Study at Inha university in Tashkent</p>
+        <h4>Courses I took:</h4>
+        <ul>
+          <li>Object-Oriented Programming</li>
+          <li>Data Structures</li>
+          <li>Software engineering</li>
+          <li>Artificial Intelligence</li>
+          <li>Computer algorithms</li>
+          <li>Database</li>
+          <li>Discrete Mathematics</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; All rights reserved 2025</p>
+    </footer>
   </body>
 </html>
